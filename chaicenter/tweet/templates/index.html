@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: #000;
-            font-family: Arial, sans-serif;
-            color: #fff; 
-            margin: 0;
-            padding: 20px;
-        }
-    </style>
-</head>
-<body>
-    test template
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block title %}
+Chai aur Tweet
+{% endblock %}
+
+{% block content %}
+<h1 class="text-center mt-5">
+    Welcome to Chai aur Tweet
+</h1>
+
+{% endblock%}
