@@ -115,29 +115,6 @@ TweetApp is a Django-based web application that allows users to post and view tw
 
 7.  **Visit** `http://127.0.0.1:8000/` in your browser.
 
-## Project Structure
-
-TweetApp/
-├── chaicenter/             # Main Django app
-│   ├── migrations/
-│   ├── templates/
-│   ├── static/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
-├── TweetApp/               # Project settings
-│   ├── init.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── media/                  # Uploaded media files
-├── static/                 # Static files
-├── templates/              # Global templates
-├── manage.py
-└── requirements.txt
 
 ## Configuration
 
